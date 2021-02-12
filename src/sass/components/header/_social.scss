@@ -1,0 +1,20 @@
+.m-header-social {
+    position: fixed;
+    left: $mobile-space;
+    bottom: 40px;
+    z-index: 2;
+
+    @include respond-to('medium') {
+        position: static;
+        margin-right: 20px;
+    }
+
+    a {
+        margin-left: 20px;
+        font-size: 1.125rem;
+
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+}
