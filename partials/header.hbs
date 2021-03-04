@@ -113,7 +113,7 @@ This header template is shared across all the pages.
               </li>
             </ul>
           </nav>
-          <div class="m-nav__right" style="margin-top 5em">
+          <div class="m-nav__right"   line-height: 5;>
             <nav class="m-header-social">
                 {{#if @site.twitter}}
                 <a href="{{twitter_url @site.twitter}}" target="_blank" rel="noopener" aria-label="Twitter">
@@ -121,10 +121,11 @@ This header template is shared across all the pages.
                 </a>
                 {{/if}}
                 <a href="{{@site.instagram}}/instagram" aria-label="instagram">
-                    <span class="icon-instagram" style="margin-top: 10em;" aria-hidden="true"></span>
+                    <span class="icon-instagram" aria-hidden="true"></span>
                 </a>
                                  <a href="{{@site.twitch}}/twitch" aria-label="twitch">
-                    <span class="icon-twitch" aria-hidden="true"></span>
+                    <span class="icon-twitch" aria-hidden="true"  line-height: 5;
+></span>
                 </a>
             </nav>
             <button class="m-icon-button in-menu-main js-open-search" aria-label="{{t "Open search"}}">
